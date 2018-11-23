@@ -1,5 +1,5 @@
 {
-  "name": "robinherbots/inputmask",
+  "name": "rtsoftplzen/inputmask",
   "description": "Inputmask is a javascript library which creates an input mask.  Inputmask can run against vanilla javascript, jQuery and jqlite.",
   "version": "4.0.3",
   "type": "library",
