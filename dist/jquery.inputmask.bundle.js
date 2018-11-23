@@ -2090,7 +2090,7 @@
                     this.inputmask.refreshValue = false;
                     var input = this, value = e && e.detail ? e.detail[0] : arguments[1], value = value || input.inputmask._valueGet(true);
                     if ($.isFunction(opts.onBeforeMask)) value = opts.onBeforeMask.call(inputmask, value, opts) || value;
-                    value = value.split("");
+                    value = value.toString().split("");
                     checkVal(input, true, false, value);
                     undoValue = getBuffer().join("");
                     if ((opts.clearMaskOnLostFocus || opts.clearIncomplete) && input.inputmask._valueGet() === getBufferTemplate().join("")) {
